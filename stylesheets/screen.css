@@ -37,20 +37,20 @@ html, body {
   color: #899B99;
   font-size: 3.5em;
   line-height: 320px;
-  margin-left: 10%;
   font-family: "Quicksand", sans-serif;
   white-space: pre;
+  text-align: center;
 }
-/* line 57, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .top_table .text_common {
   color: #899B99;
   font-size: 1em;
   font-family: "Quicksand", sans-serif;
   line-height: 0px;
   margin-top: -100px;
-  margin-left: 25%;
+  text-align: center;
 }
-/* line 66, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .top_table .btn_sign_in {
   border: 1px solid #18DAA3;
   color: #18DAA3;
@@ -65,13 +65,13 @@ html, body {
   display: inline-block;
   transition: linear .2s;
 }
-/* line 80, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .top_table .btn_sign_in:hover {
   box-shadow: 0px 0px 5px #18DAA3;
   text-shadow: 0px 0px 10px #FBFBFC;
   cursor: pointer;
 }
-/* line 87, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .top_table .btn_sign_up {
   border: 1px solid #18DAA3;
   color: #18DAA3;
@@ -85,14 +85,14 @@ html, body {
   margin-left: 5%;
   transition: linear .2s;
 }
-/* line 100, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .top_table .btn_sign_up:hover {
   box-shadow: 0px 0px 5px #18DAA3;
   text-shadow: 0px 0px 10px #FBFBFC;
   cursor: pointer;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .nav {
   position: absolute;
   width: 98%;
@@ -100,7 +100,7 @@ html, body {
   background: transparent;
   z-index: 999;
 }
-/* line 116, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .nav #home, .nav #logo, .nav #about, .nav #services, .nav #search {
   display: inline-block;
   float: right;
@@ -114,11 +114,11 @@ html, body {
   color: #899B99;
   font-family: "Quicksand", sans-serif;
 }
-/* line 130, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .nav #search {
   margin-right: 13%;
 }
-/* line 134, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .nav #logo {
   float: left;
   margin-left: 13%;
@@ -127,7 +127,7 @@ html, body {
   color: white;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .bottom_table {
   z-index: 1;
   width: 90%;
@@ -139,7 +139,7 @@ html, body {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
   color: #899B99;
 }
-/* line 155, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .bottom_table .block_new, .bottom_table .block_meet {
   display: inline-block;
   position: absolute;
@@ -147,22 +147,22 @@ html, body {
   height: 20%;
   margin: 4% 13%;
 }
-/* line 162, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .bottom_table .block_new .logo_new, .bottom_table .block_meet .logo_new, .bottom_table .block_meet .logo_calend {
   margin: 4% 6%;
   display: block;
 }
-/* line 167, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .bottom_table .block_new .text_new_logo, .bottom_table .block_meet .text_new_logo {
   display: block;
   margin-left: 60%;
   margin-top: -31%;
 }
-/* line 172, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .bottom_table .block_new .text_new_logo h3, .bottom_table .block_meet .text_new_logo h3 {
   font-family: "Quicksand", sans-serif;
 }
-/* line 178, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .bottom_table .block_note, .bottom_table .block_sinch {
   display: inline-block;
   position: absolute;
@@ -170,47 +170,60 @@ html, body {
   height: 20%;
   margin: 4% 55%;
 }
-/* line 185, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .bottom_table .block_note .logo_note, .bottom_table .block_sinch .logo_note, .bottom_table .block_sinch .logo_sinch {
   margin: 4% 6%;
   display: block;
 }
-/* line 190, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .bottom_table .block_note .text_note_logo, .bottom_table .block_sinch .text_note_logo {
   display: block;
   margin-left: 60%;
   margin-top: -31%;
 }
-/* line 195, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .bottom_table .block_note .text_note_logo h3, .bottom_table .block_sinch .text_note_logo h3 {
   font-family: "Quicksand", sans-serif;
 }
-/* line 201, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .bottom_table .block_meet {
   margin-top: 20%;
   height: 20%;
 }
-/* line 210, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .bottom_table .block_meet .text_calend_logo {
   display: block;
   margin-left: 60%;
   margin-top: -31%;
 }
-/* line 215, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .bottom_table .block_meet .text_calend_logo h3 {
   font-family: "Quicksand", sans-serif;
 }
-/* line 221, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .bottom_table .block_sinch {
   margin-top: 20%;
 }
-/* line 229, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .bottom_table .block_sinch .text_sinch_logo {
   display: block;
   margin-left: 60%;
   margin-top: -31%;
 }
-/* line 234, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 .bottom_table .block_sinch .text_sinch_logo h3 {
   font-family: "Quicksand", sans-serif;
+}
+
+@media screen and (min-device-width: 700px) {
+  /* line 244, ../sass/screen.scss */
+  .top_table .text_welcome {
+    font-size: 2.5em;
+  }
+}
+@media screen and (max-device-width: 700px) {
+  /* line 252, ../sass/screen.scss */
+  .top_table .text_welcome {
+    font-size: 3.5em;
+  }
 }
