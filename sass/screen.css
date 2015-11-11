@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+* {
+  padding: 0px;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #222 url(/background/back-wall.jpg) repeat-x -100px -100px; }
+
+.main_table {
+  position: absolute;
+  z-index: 0; }
+
+.top_table {
+  background: url(/background/sky-night.jpg);
+  z-index: 20;
+  width: 90%;
+  height: 60%;
+  margin-left: 5%; }
+  .top_table .text_welcome {
+    color: #FBFBFC;
+    font-size: 3.5em;
+    line-height: 320px;
+    margin-left: 10%;
+    font-family: "Quicksand", sans-serif;
+    white-space: pre; }
+
+.nav {
+  position: absolute;
+  width: 98%;
+  height: 80px;
+  background: transparent;
+  color: white;
+  z-index: 999; }
+  .nav #home, .nav #logo, .nav #about, .nav #services, .nav #search {
+    display: inline-block;
+    float: right;
+    background: transparent;
+    width: auto;
+    height: 40px;
+    margin-left: 5%;
+    line-height: 40px;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif; }
+  .nav #search {
+    margin-right: 13%; }
+  .nav #logo {
+    float: left;
+    margin-left: 13%;
+    font-size: 1.5em;
+    font-family: "Lobster", cursive; }
+
+.bottom_table {
+  z-index: 1;
+  width: 90%;
+  height: 80%;
+  background: #FBFBFC;
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 5%;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+  color: #899B99;
+  font-size: 3em;
+  font-family: "Lobster", cursive; }
+  .bottom_table h1 {
+    margin-left: 10%;
+    color: #18DAA3;
+    margin-top: 10%; }
+  .bottom_table h4 {
+    margin-left: 15%;
+    margin-right: 15%; }
+
+/*# sourceMappingURL=screen.css.map */

@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+* {
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-family: 'Roboto Slab', serif;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background: #222 url(/background/sky-night.jpg) no-repeat;
+}
+
+.sign_form {
+	position: absolute;
+	width: 500px;
+	height: auto;
+	margin: 5% auto;
+}
+
+.block_authorization {
+	background: #272934;
+	width: 438px;
+	height: 170px;
+	position: relative;
+	margin-top: 0px;
+	border: 1px solid #444;
+}
+
+#login {
+	width: 350px;
+	height: 35px;
+	margin-top: 35px;
+}
+
+#password {
+	width: 154px;
+	height: 35px;
+	margin-top: 25px;
+}
+
+#login, #password {
+	margin-left: 35px;
+	background: transparent;
+	border: 1px solid #444;
+	color: white;
+}
+
+.btn_sign {
+	display: block-inline;
+	width: 176px;
+	height: 37px;
+	background: #272934;
+	border: 1px solid #444;
+	color: #fff;
+	margin-left: 15px;
+	margin-top: 7px;
+	-moz-transition: linear .2s;
+	-o-transition: linear .2s;
+	-webkit-transition: linear .2s;
+	transition: linear .2s;
+}
+
+.btn_sign:hover {
+	background: #315579;
+	border: 0px;
+}
+
+.block_register {
+	border: 0px;
+	background: #fff;
+	width: 400px;
+	height: 308px;
+	padding: 20px;
+}
+
+
+input {
+	border: 1px solid #e6e6e6;
+	background: transparent;
+	border-radius: 0px;
+	color: black;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	padding-left: 20px;
+}
+
+#reg_login {
+	width: 350px;
+	height: 35px;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+#reg_password, #retry_reg_password, #name, #surname {
+	width: 154px;
+	height: 35px;
+	margin-bottom: 25px;
+}
+
+#name, #surname {
+	width: 350px;
+}
+
+.btn_send {
+	display: block;
+	width: 440px;
+	height: 45px;
+	background: #0da32a;
+	border: 0px;
+	color: #fff;
+	margin-top: 15px;
+	margin-left: -20px;
+	z-index: 2;
+	-moz-transition: linear .2s;
+	-o-transition: linear .2s;
+	-webkit-transition: linear .2s;
+	transition: linear .2s;
+}
+
+.btn_send:hover {
+	background: #21d845;
+}
+
+.society_sign {
+	margin-top: 10px;
+}
+
+
+.log_vk {
+	margin-left: 10%;
+}
+
+.log_google, .log_fb {	
+	margin-left: 25%;
+}
+
+.log_vk, .log_google, .log_fb {
+	width: 10%;
+}
