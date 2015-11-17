@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="/stylesheets/screen.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/main_page.css">
 	<script src="/scripts/jquery-2.1.4.min.js"></script>
 	<title>Timingo? А давайте ка встретимся!</title>
 </head>

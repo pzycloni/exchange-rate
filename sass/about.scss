@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+
+$null: 0px; 
+$h_nav: 80px; 
+$h_bar: 405px;
+$h_btn: 40px; 
+$m_left: 5%; 
+$width: 90%; 
+$t_offset: 5%;
+$w_btn: 10%;
+$tx_icon: -37%;
+
+
+$white: #FBFBFC;
+$text: #899B99;
+$back: #DBE5EB;
+$turq: #18DAA3;
+$green: #009688;
+$some_grey: #EBEAEA;
+$red: #F33432;
+$dark_green: #349A88;
+
+
+$lobster: 'Lobster', cursive;
+$flower: 'Quicksand', sans-serif;;
+
+* {
+	padding: $null;
+	margin: $null;
+	top: $null;
+	left: $null;
+	right: $null;
+	bottom: $null;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background: $some_grey;
+}
+
+.top_table {
+	background: url(/background/colors.jpg);
+	z-index: 20;
+	width: $width;
+	height: $h_bar;
+	margin-left: $m_left;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, .4);
+
+	.text_welcome {
+		color: $white;
+		font-size: 3.5em;
+		line-height: 320px;
+		font-family: $flower;
+		white-space: pre;
+		text-align: center;
+		display: block;
+
+	}
+
+	.text_common {
+		color: $white;
+		font-size: 1em;
+		font-family: $flower;
+		line-height: 0px;
+		margin-top: -100px;	
+		text-align: center;
+		display: block;
+	}
+}
+
+.nav {
+	position: absolute;
+	width: $width;
+	margin-left: $t_offset;
+	height: $h_nav;
+	background: transparent;
+	z-index: 999;
+
+	#home, #about, #services, #search {
+		display: inline-block;
+		float: right;
+		background: transparent;
+		width: auto;
+		height: 40px;
+		margin-left: $t_offset;
+		line-height: 40px;
+		margin-top: 20px;
+		font-family: 'Roboto Slab', serif;
+		color: $white;
+		font-family: $flower;
+	}
+
+	#search {
+		margin-right: 13%;
+	}
+
+	#logo {
+		@extend #home;
+		float: left;
+		margin-left: 13%;
+		font-size: 1.5em;
+		font-family: $lobster;
+		color: white;
+	}
+}
+
+.content {
+	width: 90%;
+	height: auto;
+	position: absolute;
+	background: white;
+	margin-left: 5%;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, .4);
+	z-index: 0;
+	margin-top: $h_bar;
+}
+
+
